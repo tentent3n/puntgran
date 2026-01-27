@@ -213,3 +213,46 @@ footer{
   color:white;
   margin-top:80px;   /* separa del formulari */
 }
+
+/* CTA Donacions */
+.cta-donate{
+  background:#fff5f5;          /* més suau que vermell fort */
+  color:#222;
+  border-radius:0;
+  padding-top:80px;
+  padding-bottom:80px;
+}
+
+.cta-donate h2{
+  color:#d94b4a;
+}
+
+.cta-donate p{
+  max-width:600px;
+  margin:0 auto 40px auto;
+}
+
+/* Targeta GoFundMe */
+.donate-card{
+  display:inline-flex;
+  align-items:center;
+  gap:18px;
+  background:white;
+  padding:22px 34px;
+  border-radius:60px;
+  text-decoration:none;
+  color:#222;
+  font-weight:600;
+  box-shadow:0 10px 25px rgba(0,0,0,0.12);
+  transition:all 0.25s ease;
+}
+
+.donate-card img{
+  width:120px;
+}
+
+.donate-card:hover{
+  transform:translateY(-3px);
+  box-shadow:0 16px 30px rgba(0,0,0,0.18);
+}
+
